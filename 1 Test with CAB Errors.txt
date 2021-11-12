@@ -1,0 +1,176 @@
+2021-11-12 09:43:30, Info                  CSI    00000097@2021/11/12:15:43:30.538 Primitive installers committed
+2021-11-12 09:43:30, Info                  CBS    Attempting to remove poqexec from SetupExecute
+2021-11-12 09:43:30, Info                  CBS    Removed poqexec from SetupExecute.
+2021-11-12 09:43:30, Info                  CBS    Configured poqexec to not pend to SetupExecute.
+2021-11-12 09:43:30, Info                  CSI    00000098 ICSITransaction::Commit calling IStorePendingTransaction::Apply - applyflags=26
+2021-11-12 09:43:30, Info                  CSI    00000099 Poqexec successfully registered in [l:14 ml:15]'PoqexecCmdline'
+2021-11-12 09:43:30, Info                  CSI    0000009a Poqexec successfully registered in [l:14 ml:15]'PoqexecCmdline'
+2021-11-12 09:43:30, Info                  CSI    0000009b Poqexec successfully registered in [l:14 ml:15]'PoqexecCmdline'
+2021-11-12 09:43:30, Info                  CBS    Setting ExecuteState key to: CbsExecuteStateDeviceInstalls
+2021-11-12 09:43:30, Info                  CBS    Exec: Offline commit completes with no pending online operations.
+2021-11-12 09:43:30, Info                  CBS    Exec: Pended transaction, changes will be applied during startup processing. Scheduled TrustedInstaller for auto-start. [HRESULT = 0x00000000 - S_OK]
+2021-11-12 09:43:30, Info                  CSI    0000009c@2021/11/12:15:43:30.652 CSI Transaction @0x24466980b90 destroyed
+2021-11-12 09:43:30, Info                  CBS    Perf: InstallUninstallChain complete.
+2021-11-12 09:43:30, Info                  CBS    FinalCommitPackagesState: Started persisting state of packages
+2021-11-12 09:43:30, Info                  CBS    Reporting package change for package: Package_for_ServicingStack_280~31bf3856ad364e35~amd64~~22000.280.1.0, current: Absent, pending: Default, start: Absent, applicable: Installed, target: Installed, limit: Installed, status: 0x0, failure source: Execute, reboot required: False, client id: MUv6 UUP handler, initiated offline: True, execution sequence: 63, first merged sequence: 63, reboot reason: REBOOT_NOT_REQUIRED, RM App session: 0, RM App name: N/A, FileName in use: N/A, release type: Update, OC operation: False, download source: 0, download time (secs): 4294967295, download status: 0x0 (S_OK), Express download: False, Download Size: 0 Used lower priority: False Priority changes: 0 
+2021-11-12 09:43:31, Info                  CBS    Reporting package change completion for package: Package_for_ServicingStack_280~31bf3856ad364e35~amd64~~22000.280.1.0, current: Installed, original: Absent, target: Installed, status: 0x0, failure source: Execute, failure details: "(null)", client id: MUv6 UUP handler, initiated offline: True, execution sequence: 63, first merged sequence: 63, pending decision: InteractiveInstallSucceeded, primitive execution context: Interactive 
+2021-11-12 09:43:31, Info                  CBS    The store corruption status report is incomplete. [HRESULT = 0x80070002 - ERROR_FILE_NOT_FOUND]
+2021-11-12 09:43:31, Info                  CBS    FinalCommitPackagesState: Completed persisting state of packages
+2021-11-12 09:43:31, Info                  CBS    Exec: Processing complete.  Session: 4160_1574234, Package: Package_for_ServicingStack_280~31bf3856ad364e35~amd64~~22000.280.1.0, Identifier: KB5006755 [HRESULT = 0x00000000 - S_OK]
+2021-11-12 09:43:31, Info                  CBS    Session: 4160_1574234 finalized. Reboot required: no [HRESULT = 0x00000000 - S_OK]
+2021-11-12 09:43:33, Info                  CBS    Failed to install onepackage from sandbox. [HRESULT = 0x8007007b - ERROR_INVALID_NAME]
+2021-11-12 09:43:33, Info                  CBS    Deleting directory: \\?\C:\Users\SeguraOSD\AppData\Local\Temp\Mount578540281\Windows\CbsTemp\4160_1574234\
+2021-11-12 09:43:33, Info                  CBS    Moving directory from \\?\C:\Users\SeguraOSD\AppData\Local\Temp\Mount578540281\Windows\CbsTemp\4160_1574234\ to \\?\C:\Users\SeguraOSD\AppData\Local\Temp\Mount578540281\Windows\CbsTemp\{21179011-9160-420E-82DC-9BB0D9814AF1}
+2021-11-12 09:43:33, Info                  CBS    Deletion of: \\?\C:\Users\SeguraOSD\AppData\Local\Temp\Mount578540281\Windows\CbsTemp\{21179011-9160-420E-82DC-9BB0D9814AF1} successful
+2021-11-12 09:43:33, Info                  CBS    Unloading offline registry hive: {bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/Users/SeguraOSD/AppData/Local/Temp/Mount578540281/Windows/System32/config/SOFTWARE
+2021-11-12 09:43:33, Info                  CBS    Failed to unload offline registry: {bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/Users/SeguraOSD/AppData/Local/Temp/Mount578540281/Windows/System32/config/SOFTWARE, the client may still need it open. [HRESULT = 0x80070005 - E_ACCESSDENIED]
+2021-11-12 09:43:33, Info                  CBS    Unloading offline registry hive: {bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/Users/SeguraOSD/AppData/Local/Temp/Mount578540281/Windows/System32/config/SYSTEM
+2021-11-12 09:43:33, Info                  CBS    Failed to unload offline registry: {bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/Users/SeguraOSD/AppData/Local/Temp/Mount578540281/Windows/System32/config/SYSTEM, the client may still need it open. [HRESULT = 0x80070005 - E_ACCESSDENIED]
+2021-11-12 09:43:33, Info                  CBS    Unloading offline registry hive: {bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/Users/SeguraOSD/AppData/Local/Temp/Mount578540281/Windows/System32/config/SECURITY
+2021-11-12 09:43:33, Info                  CBS    Failed to unload offline registry: {bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/Users/SeguraOSD/AppData/Local/Temp/Mount578540281/Windows/System32/config/SECURITY, the client may still need it open. [HRESULT = 0x80070005 - E_ACCESSDENIED]
+2021-11-12 09:43:33, Info                  CBS    Unloading offline registry hive: {bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/Users/SeguraOSD/AppData/Local/Temp/Mount578540281/Windows/System32/config/SAM
+2021-11-12 09:43:33, Info                  CBS    Failed to unload offline registry: {bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/Users/SeguraOSD/AppData/Local/Temp/Mount578540281/Windows/System32/config/SAM, the client may still need it open. [HRESULT = 0x80070005 - E_ACCESSDENIED]
+2021-11-12 09:43:33, Info                  CBS    Unloading offline registry hive: {bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/Users/SeguraOSD/AppData/Local/Temp/Mount578540281/Windows/System32/config/COMPONENTS
+2021-11-12 09:43:33, Info                  CBS    Failed to unload offline registry: {bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/Users/SeguraOSD/AppData/Local/Temp/Mount578540281/Windows/System32/config/COMPONENTS, the client may still need it open. [HRESULT = 0x80070005 - E_ACCESSDENIED]
+2021-11-12 09:43:33, Info                  CBS    Unloading offline registry hive: {bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/Users/SeguraOSD/AppData/Local/Temp/Mount578540281/Windows/System32/config/DRIVERS
+2021-11-12 09:43:33, Info                  CBS    Failed to unload offline registry: {bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/Users/SeguraOSD/AppData/Local/Temp/Mount578540281/Windows/System32/config/DRIVERS, the client may still need it open. [HRESULT = 0x80070005 - E_ACCESSDENIED]
+2021-11-12 09:43:33, Info                  CBS    Unloading offline registry hive: {bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/Users/SeguraOSD/AppData/Local/Temp/Mount578540281/Windows/System32/config/DEFAULT
+2021-11-12 09:43:33, Info                  CBS    Failed to unload offline registry: {bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/Users/SeguraOSD/AppData/Local/Temp/Mount578540281/Windows/System32/config/DEFAULT, the client may still need it open. [HRESULT = 0x80070005 - E_ACCESSDENIED]
+2021-11-12 09:43:33, Info                  CBS    Unloading offline registry hive: {bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/Users/SeguraOSD/AppData/Local/Temp/Mount578540281/Users/Default/ntuser.dat
+2021-11-12 09:43:33, Info                  CBS    Failed to unload offline registry: {bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/Users/SeguraOSD/AppData/Local/Temp/Mount578540281/Users/Default/ntuser.dat, the client may still need it open. [HRESULT = 0x80070005 - E_ACCESSDENIED]
+2021-11-12 09:43:33, Info                  CBS    Unloading offline registry hive: {bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/Users/SeguraOSD/AppData/Local/Temp/Mount578540281/Windows/system32/smi/store/Machine/schema.dat
+2021-11-12 09:43:33, Info                  CBS    Failed to unload offline registry: {bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/Users/SeguraOSD/AppData/Local/Temp/Mount578540281/Windows/system32/smi/store/Machine/schema.dat, the client may still need it open. [HRESULT = 0x80070005 - E_ACCESSDENIED]
+2021-11-12 09:43:33, Info                  CSI    0000009d Direct SIL provider: Number of files opened: 1226.
+2021-11-12 09:43:33, Info                  CSI    0000009e Direct SIL provider: Number of files opened: 5094.
+2021-11-12 09:43:33, Info                  CBS    Failed to install onepackage from sandbox. [HRESULT = 0x8007007b - ERROR_INVALID_NAME]
+2021-11-12 09:43:33, Info                  CBS    Failed to execute Onepackage installation [HRESULT = 0x8007007b - ERROR_INVALID_NAME]
+2021-11-12 09:43:33, Info                  CBS    Failed to execute execution package: OnePackage~~~~0.0.0.0 [HRESULT = 0x8007007b - ERROR_INVALID_NAME]
+2021-11-12 09:43:33, Info                  CBS    Failed to prepare execution [HRESULT = 0x8007007b - ERROR_INVALID_NAME]
+2021-11-12 09:43:33, Info                  CBS    Perf: InstallUninstallChain complete.
+2021-11-12 09:43:33, Info                  CSI    0000009f@2021/11/12:15:43:33.523 CSI Transaction @0x24454b2f0f0 destroyed
+2021-11-12 09:43:33, Info                  CBS    Failed to execute execution chain. [HRESULT = 0x8007007b - ERROR_INVALID_NAME]
+2021-11-12 09:43:33, Error                 CBS    Failed to process single phase execution. [HRESULT = 0x8007007b - ERROR_INVALID_NAME]
+2021-11-12 09:43:33, Info                  CBS    WER: Generating failure report for package: OnePackage~~~~0.0.0.0, status: 0x8007007b, failure source: Execute, start state: Absent, target state: Installed, client id: DISM Package Manager Provider
+2021-11-12 09:43:33, Info                  CBS    Not able to query DisableWerReporting flag.  Assuming not set... [HRESULT = 0x80070002 - ERROR_FILE_NOT_FOUND]
+2021-11-12 09:43:33, Info                  CBS    Added C:\WINDOWS\Logs\DISM\dism.log to WER report.
+2021-11-12 09:43:33, Info                  CBS    Not able to add pending.xml to offline WER report. [HRESULT = 0x80070002 - ERROR_FILE_NOT_FOUND]
+2021-11-12 09:43:33, Info                  CBS    FinalCommitPackagesState: Started persisting state of packages
+2021-11-12 09:43:33, Info                  CBS    Exec: Current execution did not succeed but is not a valid auto repair scenario, skip auto repair.
+2021-11-12 09:43:33, Info                  CBS    Exec: Processing complete.  Session: 4160_1512484, Package: OnePackage~~~~0.0.0.0, Identifier:  [HRESULT = 0x8007007b - ERROR_INVALID_NAME]
+2021-11-12 09:43:33, Error                 CBS    Failed to perform operation.  [HRESULT = 0x8007007b - ERROR_INVALID_NAME]
+2021-11-12 09:43:33, Info                  CBS    Session: 4160_1512484 finalized. Reboot required: no [HRESULT = 0x8007007b - ERROR_INVALID_NAME]
+2021-11-12 09:43:33, Error                 DISM   DISM Package Manager: PID=4160 TID=10128 Failed finalizing changes. - CDISMPackageManager::Internal_Finalize(hr:0x8007007b)
+2021-11-12 09:43:33, Error                 DISM   DISM Package Manager: PID=4160 TID=10128 Failed processing package changes - CDISMPackageManager::ProcessChanges(hr:0x8007007b)
+2021-11-12 09:43:33, Error                 DISM   API: PID=14308 TID=7368 Failed to process package  changes - CAddPackageCommandObject::InternalExecute(hr:0x8007007b)
+2021-11-12 09:43:33, Info                  CBS    Deleting directory: \\?\C:\Users\SeguraOSD\AppData\Local\Temp\Mount578540281\Windows\CbsTemp\4160_1512484\
+2021-11-12 09:43:33, Info                  CBS    Moving directory from \\?\C:\Users\SeguraOSD\AppData\Local\Temp\Mount578540281\Windows\CbsTemp\4160_1512484\ to \\?\C:\Users\SeguraOSD\AppData\Local\Temp\Mount578540281\Windows\CbsTemp\{8AA3361A-90D2-434C-8293-21DED4F77804}
+2021-11-12 09:43:33, Info                  CBS    Deletion of: \\?\C:\Users\SeguraOSD\AppData\Local\Temp\Mount578540281\Windows\CbsTemp\{8AA3361A-90D2-434C-8293-21DED4F77804} successful
+2021-11-12 09:43:33, Info                  CBS    Force unloading offline registry hive: {bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/Users/SeguraOSD/AppData/Local/Temp/Mount578540281/Windows/System32/config/SOFTWARE
+2021-11-12 09:43:33, Info                  CBS    Force unloading offline registry hive: {bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/Users/SeguraOSD/AppData/Local/Temp/Mount578540281/Windows/System32/config/SYSTEM
+2021-11-12 09:43:33, Info                  CBS    Force unloading offline registry hive: {bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/Users/SeguraOSD/AppData/Local/Temp/Mount578540281/Windows/System32/config/SECURITY
+2021-11-12 09:43:33, Info                  CBS    Force unloading offline registry hive: {bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/Users/SeguraOSD/AppData/Local/Temp/Mount578540281/Windows/System32/config/SAM
+2021-11-12 09:43:33, Info                  CBS    Force unloading offline registry hive: {bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/Users/SeguraOSD/AppData/Local/Temp/Mount578540281/Windows/System32/config/COMPONENTS
+2021-11-12 09:43:33, Info                  CBS    Force unloading offline registry hive: {bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/Users/SeguraOSD/AppData/Local/Temp/Mount578540281/Windows/System32/config/DRIVERS
+2021-11-12 09:43:33, Info                  CBS    Force unloading offline registry hive: {bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/Users/SeguraOSD/AppData/Local/Temp/Mount578540281/Windows/System32/config/DEFAULT
+2021-11-12 09:43:33, Info                  CBS    Force unloading offline registry hive: {bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/Users/SeguraOSD/AppData/Local/Temp/Mount578540281/Users/Default/ntuser.dat
+2021-11-12 09:43:33, Info                  CBS    Force unloading offline registry hive: {bf1a281b-ad7b-4476-ac95-f47682990ce7}C:/Users/SeguraOSD/AppData/Local/Temp/Mount578540281/Windows/system32/smi/store/Machine/schema.dat
+2021-11-12 09:43:33, Info                  CSI    000000a0 Direct SIL provider: Number of files opened: 17.
+2021-11-12 09:43:33, Error                 DISM   API: PID=14308 TID=7368 InternalExecute failed - CBaseCommandObject::Execute(hr:0x8007007b)
+2021-11-12 09:43:33, Error                 DISM   API: PID=14308 TID=16648 CAddPackageCommandObject internal execution failed - DismAddPackageInternal(hr:0x8007007b)
+2021-11-12 09:43:33, Info                  DISM   API: PID=14308 TID=16648 Exit - DismAddPackageInternal
+2021-11-12 09:43:33, Info                  DISM   API: PID=14308 TID=16648 Enter - DismGetLastErrorMessageInternal
+2021-11-12 09:43:33, Info                  DISM   API: PID=14308 TID=16648 Exit - DismGetLastErrorMessageInternal
+2021-11-12 09:43:33, Info                  DISM   API: PID=14308 TID=16648 Enter - DismDeleteInternal
+2021-11-12 09:43:33, Info                  DISM   API: PID=14308 TID=16648 Exit - DismDeleteInternal
+2021-11-12 09:43:33, Info                  DISM   API: PID=14308 TID=16648 Enter - DismGetLastErrorMessageInternal
+2021-11-12 09:43:33, Info                  DISM   API: PID=14308 TID=16648 Exit - DismGetLastErrorMessageInternal
+2021-11-12 09:43:33, Info                  DISM   API: PID=14308 TID=16648 Enter - DismCloseSessionInternal
+2021-11-12 09:43:33, Info                  DISM   API: PID=14308 TID=16648 Input parameters: Session: 2 - DismCloseSessionInternal
+2021-11-12 09:43:33, Info                  DISM   API: PID=14308 TID=16648 GetReferenceCount hr: 0x0 - CSessionTable::RemoveSession
+2021-11-12 09:43:33, Info                  DISM   API: PID=14308 TID=16648 Refcount for DismSession= 2s 0 - CSessionTable::RemoveSession
+2021-11-12 09:43:33, Info                  DISM   API: PID=14308 TID=16648 Successfully enqueued command object - CCommandThread::EnqueueCommandObject
+2021-11-12 09:43:33, Info                  DISM   API: PID=14308 TID=7368 ExecuteLoop: CommandQueue signaled - CCommandThread::ExecuteLoop
+2021-11-12 09:43:33, Info                  DISM   API: PID=14308 TID=7368 Successfully dequeued command object - CCommandThread::DequeueCommandObject
+2021-11-12 09:43:33, Info                  DISM   API: PID=14308 TID=7368 ExecuteLoop: Cancel signaled - CCommandThread::ExecuteLoop
+2021-11-12 09:43:33, Info                  DISM   API: PID=14308 TID=7368 Leave CCommandThread::ExecuteLoop - CCommandThread::ExecuteLoop
+2021-11-12 09:43:33, Info                  DISM   DISM Provider Store: PID=4160 TID=10128 Found the OSServices. Waiting to finalize it until all other providers are unloaded. - CDISMProviderStore::Final_OnDisconnect
+2021-11-12 09:43:33, Info                  DISM   DISM Provider Store: PID=4160 TID=10128 Found the OSServices. Waiting to finalize it until all other providers are unloaded. - CDISMProviderStore::Final_OnDisconnect
+2021-11-12 09:43:33, Info                  DISM   DISM Provider Store: PID=4160 TID=10128 Encountered a loaded provider DISM Package Manager. - CDISMProviderStore::Internal_DisconnectProvider
+2021-11-12 09:43:33, Info                  DISM   DISM Provider Store: PID=4160 TID=10128 Finalizing the servicing provider (DISM Package Manager) - CDISMProviderStore::Internal_DisconnectProvider
+2021-11-12 09:43:33, Info                  DISM   DISM Package Manager: PID=4160 TID=10128 Finalizing CBS core. - CDISMPackageManager::Finalize
+2021-11-12 09:43:33, Info                  CBS    CbsCoreFinalize: ExecutionEngineFinalize
+2021-11-12 09:43:33, Info                  CBS    Execution Engine Finalize
+2021-11-12 09:43:33, Info                  CBS    Execution Engine Finalize
+2021-11-12 09:43:33, Info                  CBS    Execution Engine Finalize
+2021-11-12 09:43:33, Info                  CBS    Execution Engine Finalize
+2021-11-12 09:43:33, Info                  CBS    CbsCoreFinalize: ComponentAnalyzerFinalize
+2021-11-12 09:43:33, Info                  CBS    CbsCoreFinalize: PackageTrackerFinalize
+2021-11-12 09:43:33, Info                  CBS    CbsCoreFinalize: CoreResourcesUnload
+2021-11-12 09:43:33, Info                  CBS    CbsCoreFinalize: SessionManagerFinalize
+2021-11-12 09:43:33, Info                  CBS    Lock: Lock removed: CSIInventoryCriticalSection, level: 64, total lock:10
+2021-11-12 09:43:33, Info                  CBS    Lock: Lock removed: CCbsSessionManager, level: 11, total lock:9
+2021-11-12 09:43:33, Info                  CBS    CbsCoreFinalize: CapabilityManagerFinalize
+2021-11-12 09:43:33, Info                  CBS    CbsCoreFinalize: GetPublicObjectMonitor::Audit
+2021-11-12 09:43:33, Info                  CBS    CbsCoreFinalize: PublicObjectMonitorFinalize
+2021-11-12 09:43:33, Info                  CBS    CbsCoreFinalize: Enter vCoreInitializeLock
+2021-11-12 09:43:33, Info                  CBS    CbsCoreFinalize: WcpUnload
+2021-11-12 09:43:33, Info                  CBS    CbsCoreFinalize: DrupUnload
+2021-11-12 09:43:33, Info                  CBS    CbsCoreFinalize: CfgMgr32Unload
+2021-11-12 09:43:33, Info                  CBS    CbsCoreFinalize: DpxUnload
+2021-11-12 09:43:33, Info                  CBS    CbsCoreFinalize: SrUnload
+2021-11-12 09:43:33, Info                  CBS    CbsCoreFinalize: TurboStackUnload
+2021-11-12 09:43:33, Info                  CBS    CbsCoreFinalize: CbsEsdUnload
+2021-11-12 09:43:33, Info                  CBS    CbsCoreFinalize: CbsOneSettingsFinalize
+2021-11-12 09:43:33, Info                  CBS    CbsCoreFinalize: CbsTraceInfoUninitialize
+2021-11-12 09:43:33, Info                  CBS    CbsCoreFinalize: CbsEventUnregister
+2021-11-12 09:43:33, Info                  CBS    CbsCoreFinalize: AppContainerUnload
+2021-11-12 09:43:33, Info                  CBS    CbsCoreFinalize: WdsUnload, logging from cbscore will end.
+2021-11-12 09:43:33, Info                  DISM   DISM Provider Store: PID=4160 TID=10128 Disconnecting Provider: DISM Package Manager - CDISMProviderStore::Internal_DisconnectProvider
+2021-11-12 09:43:48, Info                  DISM   DISM Provider Store: PID=4160 TID=10128 Found the PE Provider. Waiting to finalize it until all other providers are unloaded. - CDISMProviderStore::Final_OnDisconnect
+2021-11-12 09:43:48, Info                  DISM   DISM Provider Store: PID=4160 TID=10128 Releasing the local reference to OSServices. - CDISMProviderStore::Internal_DisconnectProvider
+2021-11-12 09:43:48, Info                  DISM   DISM Provider Store: PID=4160 TID=10128 Encountered a loaded provider OSServices. - CDISMProviderStore::Internal_DisconnectProvider
+2021-11-12 09:43:48, Info                  DISM   DISM Provider Store: PID=4160 TID=10128 Disconnecting Provider: OSServices - CDISMProviderStore::Internal_DisconnectProvider
+2021-11-12 09:43:48, Info                  DISM   DISM OS Provider: PID=4160 TID=10128 Successfully unloaded all registry hives. - CDISMOSServiceManager::Final_OnDisconnect
+2021-11-12 09:43:48, Info                  DISM   DISM Provider Store: PID=4160 TID=10128 Releasing the local reference to DISMLogger. Stop logging. - CDISMProviderStore::Internal_DisconnectProvider
+2021-11-12 09:43:48, Info                  DISM   Provider store has been disconnected. Releasing COM pointers. - CDISMImageSession::Final_OnDisconnect
+2021-11-12 09:43:48, Info                  DISM   DISM Manager: PID=14308 TID=7368 Releasing references to DismHost.exe process. - CDISMManager::CleanupImageSessionEntry
+2021-11-12 09:43:48, Info                  DISM   DISMHOST.EXE: FinalRelease of DismHostManager being executed. _AtlModule lock count = 3
+2021-11-12 09:43:48, Info                  DISM   DISMHOST.EXE:     Unregistering proxy stubs.
+2021-11-12 09:43:48, Info                  DISM   DISMHOST.EXE:     Revoking DismHost class factory.
+2021-11-12 09:43:48, Info                  DISM   DISMHOST.EXE: Completed DismHostManager release. Process should shut down. _AtlModule lock count = 2
+2021-11-12 09:43:48, Info                  DISM   DISM Manager: PID=14308 TID=7368 References released. Waiting for DismHost.exe shutdown. - CDISMManager::CleanupImageSessionEntry
+2021-11-12 09:43:48, Info                  DISM   DISM Manager: PID=14308 TID=7368 Closing session event handle 0x1dc8 - CDISMManager::CleanupImageSessionEntry
+2021-11-12 09:43:48, Info                  DISM   DISM Provider Store: PID=14308 TID=7368 Encountered a loaded provider GenericImagingManager. - CDISMProviderStore::Internal_DisconnectProvider
+2021-11-12 09:43:48, Info                  DISM   DISM Provider Store: PID=14308 TID=7368 Disconnecting Provider: GenericImagingManager - CDISMProviderStore::Internal_DisconnectProvider
+2021-11-12 09:43:48, Info                  DISM   DISM Provider Store: PID=14308 TID=7368 Encountered a loaded provider WimManager. - CDISMProviderStore::Internal_DisconnectProvider
+2021-11-12 09:43:48, Info                  DISM   DISM Provider Store: PID=14308 TID=7368 Disconnecting Provider: WimManager - CDISMProviderStore::Internal_DisconnectProvider
+2021-11-12 09:43:48, Info                  DISM   DISM Provider Store: PID=14308 TID=7368 Encountered a loaded provider FolderManager. - CDISMProviderStore::Internal_DisconnectProvider
+2021-11-12 09:43:48, Info                  DISM   DISM Provider Store: PID=14308 TID=7368 Disconnecting Provider: FolderManager - CDISMProviderStore::Internal_DisconnectProvider
+2021-11-12 09:43:48, Info                  DISM   DISM Provider Store: PID=14308 TID=7368 Encountered a loaded provider FfuManager. - CDISMProviderStore::Internal_DisconnectProvider
+2021-11-12 09:43:48, Info                  DISM   DISM Provider Store: PID=14308 TID=7368 Disconnecting Provider: FfuManager - CDISMProviderStore::Internal_DisconnectProvider
+2021-11-12 09:43:48, Info                  DISM   DISM Provider Store: PID=14308 TID=7368 Found the OSServices. Waiting to finalize it until all other providers are unloaded. - CDISMProviderStore::Final_OnDisconnect
+2021-11-12 09:43:48, Info                  DISM   DISM Provider Store: PID=14308 TID=7368 Encountered a loaded provider VHDManager. - CDISMProviderStore::Internal_DisconnectProvider
+2021-11-12 09:43:48, Info                  DISM   DISM Provider Store: PID=14308 TID=7368 Disconnecting Provider: VHDManager - CDISMProviderStore::Internal_DisconnectProvider
+2021-11-12 09:43:48, Info                  DISM   DISM Provider Store: PID=14308 TID=7368 Releasing the local reference to DISMLogger. Stop logging. - CDISMProviderStore::Internal_DisconnectProvider
+2021-11-12 09:43:48, Info                  DISM   Provider store has been disconnected. Releasing COM pointers. - CDISMImageSession::Final_OnDisconnect
+2021-11-12 09:43:48, Info                  DISM   API: PID=14308 TID=7368 Leave CCommandThread::CommandThreadProcedureStub - CCommandThread::CommandThreadProcedureStub
+2021-11-12 09:43:48, Info                  DISM   API: PID=14308 TID=16648 Exit - DismCloseSessionInternal
+2021-11-12 09:43:48, Info                  DISM   API: PID=14308 TID=16648 Enter - DismShutdownInternal
+2021-11-12 09:43:48, Info                  DISM   API: PID=14308 TID=16648 GetReferenceCount hr: 0x0 - CSessionTable::RemoveSession
+2021-11-12 09:43:48, Info                  DISM   API: PID=14308 TID=16648 Refcount for DismSession= 1s 0 - CSessionTable::RemoveSession
+2021-11-12 09:43:48, Info                  DISM   API: PID=14308 TID=16648 Successfully enqueued command object - CCommandThread::EnqueueCommandObject
+2021-11-12 09:43:48, Info                  DISM   API: PID=14308 TID=6168 ExecuteLoop: CommandQueue signaled - CCommandThread::ExecuteLoop
+2021-11-12 09:43:48, Info                  DISM   API: PID=14308 TID=6168 Successfully dequeued command object - CCommandThread::DequeueCommandObject
+2021-11-12 09:43:48, Info                  DISM   API: PID=14308 TID=6168 ExecuteLoop: Cancel signaled - CCommandThread::ExecuteLoop
+2021-11-12 09:43:48, Info                  DISM   API: PID=14308 TID=6168 Leave CCommandThread::ExecuteLoop - CCommandThread::ExecuteLoop
+2021-11-12 09:43:48, Info                  DISM   PID=14308 TID=6168 Temporarily setting the scratch directory. This may be overridden by user later. - CDISMManager::FinalConstruct
+2021-11-12 09:43:48, Info                  DISM   PID=14308 TID=6168 Scratch directory set to 'C:\Users\SEGURA~1\AppData\Local\Temp\'. - CDISMManager::put_ScratchDir
+2021-11-12 09:43:48, Info                  DISM   PID=14308 TID=6168 DismCore.dll version: 10.0.22000.41 - CDISMManager::FinalConstruct
+2021-11-12 09:43:48, Info                  DISM   Initialized Panther logging at C:\WINDOWS\Logs\DISM\dism.log
+2021-11-12 09:43:48, Info                  DISM   API: PID=14308 TID=6168 Leave CCommandThread::CommandThreadProcedureStub - CCommandThread::CommandThreadProcedureStub
+2021-11-12 09:43:48, Info                  DISM   API: PID=14308 TID=16648 Deleted g_internalDismSession - DismShutdownInternal
+2021-11-12 09:43:48, Info                  DISM   API: PID=14308 TID=16648 Shutdown SessionTable - DismShutdownInternal
+2021-11-12 09:43:48, Info                  DISM   API: PID=14308 TID=16648 Exit - DismShutdownInternal
+2021-11-12 09:43:48, Info                  DISM   API: PID=14308 TID=16648 DismApi.dll:                                          - DismShutdownInternal
+2021-11-12 09:43:48, Info                  DISM   API: PID=14308 TID=16648 DismApi.dll: <----- Ending DismApi.dll session -----> - DismShutdownInternal
+2021-11-12 09:43:48, Info                  DISM   API: PID=14308 TID=16648 DismApi.dll:                                          - DismShutdownInternal
